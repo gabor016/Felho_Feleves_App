@@ -1,0 +1,102 @@
+[
+  {
+    "id": "996af73a-5410-411b-a829-18a1f221163e",
+    "athleteId": "bbad7e8c-7bdb-41cf-9d5e-cd642137bd1f",
+    "createdAt": 1763594919909,
+    "program": {
+      "warmup": "Reflex gyakorlatok 5 perc",
+      "drills": [
+        "Alap védekezés: 10 perc",
+        "Támadás indítása: 10 perc",
+        "Épée specifikus gyakorlat 10 perc"
+      ],
+      "conditioning": [
+        "Alacsony intenzitású erősítés",
+        "Nyújtás 12 perc"
+      ],
+      "level": "beginner",
+      "mode": "fatigued",
+      "weapon": "épée"
+    }
+  },
+  {
+    "id": "64f858c7-73d8-4be8-8b94-a922311fa27d",
+    "athleteId": "bbad7e8c-7bdb-41cf-9d5e-cd642137bd1f",
+    "createdAt": 1763594925830,
+    "program": {
+      "warmup": "Reflex gyakorlatok 5 perc",
+      "drills": [
+        "Kontratámadás több variációban: 12 perc",
+        "Összetett lábmunka: 15 perc",
+        "Épée specifikus gyakorlat 10 perc"
+      ],
+      "conditioning": [
+        "Alacsony intenzitású erősítés",
+        "Nyújtás 12 perc"
+      ],
+      "level": "intermediate",
+      "mode": "fatigued",
+      "weapon": "épée"
+    }
+  },
+  {
+    "id": "49486d84-cf0e-4035-8cad-c802f4c64a4b",
+    "athleteId": "73d5d284-27f8-4d99-bf26-c1b42e1378e9",
+    "createdAt": 1763595914830,
+    "program": {
+      "warmup": "Könnyű lábmunka 6 perc",
+      "drills": [
+        "Kontratámadás több variációban: 12 perc",
+        "Összetett lábmunka: 15 perc",
+        "Foil specifikus gyakorlat 10 perc"
+      ],
+      "conditioning": [
+        "Core edzés 8 perc",
+        "Rövid intervall futás 4x30mp"
+      ],
+      "level": "intermediate",
+      "mode": "normal",
+      "weapon": "foil"
+    }
+  },
+  {
+    "id": "2714329b-7be8-438a-aac3-5d994b1ea233",
+    "athleteId": "0a8cbb42-bf13-49f7-84fc-7f33f7916523",
+    "createdAt": 1763596171483,
+    "program": {
+      "warmup": "Reflex gyakorlatok 5 perc",
+      "drills": [
+        "Kontratámadás több variációban: 12 perc",
+        "Összetett lábmunka: 15 perc",
+        "Épée specifikus gyakorlat 10 perc"
+      ],
+      "conditioning": [
+        "Robbanékonysági gyakorlatok",
+        "Gyors reakció edzés 10 perc"
+      ],
+      "level": "intermediate",
+      "mode": "competition",
+      "weapon": "épée"
+    }
+  },
+  {
+    "id": "db5579bf-4a40-410a-a4fe-44467c3e5dc5",
+    "athleteId": "0a8cbb42-bf13-49f7-84fc-7f33f7916523",
+    "createdAt": 1763596175825,
+    "program": {
+      "warmup": "Könnyű lábmunka 6 perc",
+      "drills": [
+        "Alap védekezés: 10 perc",
+        "Támadás indítása: 10 perc",
+        "Épée specifikus gyakorlat 10 perc"
+      ],
+      "conditioning": [
+        "Robbanékonysági gyakorlatok",
+        "Gyors reakció edzés 10 perc"
+      ],
+      "level": "beginner",
+      "mode": "competition",
+      "weapon": "épée"
+    }
+  }
+]

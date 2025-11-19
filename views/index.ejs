@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Vívó Edzéstervező Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark mb-4 shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="/">
+      <img src="/images/fencing-icon.png" alt="" width="32" height="32" class="d-inline-block align-text-top me-2">
+      Vívó Dashboard
+    </a>
+    <div class="ms-auto">
+      <a class="btn btn-outline-light me-2" href="/stats">Statisztikák</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+
+  <div class="card shadow-sm mb-4">
+    <div class="card-body">
+      <h3 class="card-title mb-3">Új sportoló</h3>
+      <div class="row g-3">
+        <div class="col-md-4"><input id="athlete-name" class="form-control" placeholder="Név"></div>
+        <div class="col-md-2">
+          <select id="athlete-weapon" class="form-select">
+            <option value="épée">Épée</option>
+            <option value="foil">Foil</option>
+            <option value="sabre">Kard</option>
+          </select>
+        </div>
+        <div class="col-md-2"><input id="athlete-age" class="form-control" placeholder="Életkor"></div>
+        <div class="col-md-2"><input id="athlete-style" class="form-control" placeholder="Stílus"></div>
+        <div class="col-md-2 d-grid"><button id="add-athlete" class="btn btn-teal">Hozzáadás</button></div>
+      </div>
+
+      <textarea id="athlete-notes" class="form-control mt-3" placeholder="Megjegyzések"></textarea>
+      <div id="athlete-msg" class="mt-2 small"></div>
+    </div>
+  </div>
+
+  <div class="card shadow-sm mb-4">
+    <div class="card-body">
+      <h3>Sportolók</h3>
+      <ul id="athlete-list" class="list-group"></ul>
+    </div>
+  </div>
+
+</div>
+
+<script src="/javascripts/main.js"></script>
+</body>
+</html>

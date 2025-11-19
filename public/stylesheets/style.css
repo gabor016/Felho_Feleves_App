@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.navbar, .card {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.navbar {
+  background-color: #1f1f1f !important;
+}
+
+.card {
+  background-color: #1e1e1e;
+}
+
+.btn-teal {
+  background: linear-gradient(45deg, #0ea5a4, #14b8a6);
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease;
+}
+.btn-teal:hover {
+  background: linear-gradient(45deg, #14b8a6, #0ea5a4);
+  transform: translateY(-2px);
+}
+
+.list-group-item {
+  background-color: #1b1b1b;
+  border: none;
+  margin-bottom: 6px;
+  border-radius: 8px;
+}
+
+img.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+.card-title, h1, h3 {
+  color: #fff;
+}
+
+textarea, input, select {
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+  border: 1px solid #444;
+}
+
+textarea::placeholder, input::placeholder {
+  color: #bbb;
+}
