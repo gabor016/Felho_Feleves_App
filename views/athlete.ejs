@@ -17,13 +17,14 @@
     </a>
     <div class="ms-auto">
       <a class="btn btn-outline-light me-2" href="/stats">Statisztikák</a>
+      <a class="btn btn-outline-light" href="/">Főoldal</a>
     </div>
   </div>
 </nav>
 
 <div class="container py-4">
 
-  <div class="card mb-4 d-flex flex-row align-items-center p-3">
+  <div class="card mb-4 p-3 fade-in d-flex flex-row align-items-center">
     <img class="avatar" src="/images/default-avatar.png" alt="Sportoló képe">
     <div>
       <h3><%= athlete.name %></h3>
@@ -32,11 +33,11 @@
       <p><b>Stílus:</b> <%= athlete.style %></p>
       <p><b>Ranglista pont:</b> <%= athlete.rating %></p>
       <p><b>Megjegyzések:</b> <%= athlete.notes %></p>
-      <button class="btn btn-danger" id="delete-athlete">Sportoló törlése</button>
+      <button class="btn btn-danger mt-2" id="delete-athlete">Sportoló törlése</button>
     </div>
   </div>
 
-  <div class="card mb-4">
+  <div class="card mb-4 fade-in" style="animation-delay: 0.3s;">
     <div class="card-body">
       <h3>Edzésterv generálása</h3>
       <form id="gen-form" class="row g-2">

@@ -23,11 +23,12 @@
 
 <div class="container">
 
-  <div class="card shadow-sm mb-4">
+  <div class="card shadow-sm mb-4 fade-in">
     <div class="card-body">
       <h3 class="card-title mb-3">Új sportoló</h3>
-      <div class="row g-3">
-        <div class="col-md-4"><input id="athlete-name" class="form-control" placeholder="Név"></div>
+      <div class="row g-3 align-items-center">
+        <div class="col-md-2"><img src="/images/default-avatar.png" class="avatar"></div>
+        <div class="col-md-2"><input id="athlete-name" class="form-control" placeholder="Név"></div>
         <div class="col-md-2">
           <select id="athlete-weapon" class="form-select">
             <option value="épée">Épée</option>
@@ -45,7 +46,7 @@
     </div>
   </div>
 
-  <div class="card shadow-sm mb-4">
+  <div class="card shadow-sm mb-4 fade-in" style="animation-delay: 0.3s;">
     <div class="card-body">
       <h3>Sportolók</h3>
       <ul id="athlete-list" class="list-group"></ul>

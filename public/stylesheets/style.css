@@ -4,21 +4,40 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: #121212;
   color: #e0e0e0;
+  overflow-x: hidden;
 }
 
-.navbar, .card {
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-}
-
-.navbar {
+/* Navbar */
+.navbar, .navbar .navbar-brand, .navbar .nav-link, .navbar .btn {
   background-color: #1f1f1f !important;
+  color: #e0e0e0 !important;
+}
+.navbar .btn-outline-light {
+  color: #e0e0e0;
+  border-color: #444;
+}
+.navbar .btn-outline-light:hover {
+  color: #fff;
+  background-color: #0ea5a4;
+  border-color: #0ea5a4;
 }
 
+/* Kártyák */
 .card {
   background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.5);
+}
+.card h1, .card h3, .card h5, .card p, .card label {
+  color: #e0e0e0;
 }
 
+/* Gombok */
 .btn-teal {
   background: linear-gradient(45deg, #0ea5a4, #14b8a6);
   color: #fff;
@@ -27,33 +46,76 @@ body {
 }
 .btn-teal:hover {
   background: linear-gradient(45deg, #14b8a6, #0ea5a4);
-  transform: translateY(-2px);
+  transform: scale(1.05);
 }
 
+/* Lista */
 .list-group-item {
   background-color: #1b1b1b;
   border: none;
   margin-bottom: 6px;
   border-radius: 8px;
+  display: flex;
+  align-items: center;
+  color: #e0e0e0;
+  transition: all 0.3s ease;
+}
+.list-group-item:hover {
+  background-color: #272727;
+  transform: translateX(3px);
 }
 
+/* Avatar */
 img.avatar {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   object-fit: cover;
   margin-right: 15px;
+  transition: transform 0.3s ease;
 }
-.card-title, h1, h3 {
+img.avatar:hover {
+  transform: scale(1.1);
+}
+
+/* Input / textarea / select */
+input, textarea, select {
+  background-color: #2a2a2a !important;
+  color: #e0e0e0 !important;
+  border: 1px solid #444;
+  border-radius: 8px;
+}
+input::placeholder, textarea::placeholder, select option {
+  color: #bbb;
+}
+
+/* Fade-in animáció */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s forwards;
+}
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Progress bar (ha lesz) */
+.progress {
+  background-color: #2a2a2a !important;
+}
+.progress-bar {
+  background-color: #0ea5a4 !important;
   color: #fff;
 }
 
-textarea, input, select {
-  background-color: #2a2a2a;
-  color: #e0e0e0;
-  border: 1px solid #444;
+/* Linkek */
+a {
+  color: #0ea5a4;
 }
-
-textarea::placeholder, input::placeholder {
-  color: #bbb;
+a:hover {
+  color: #14b8a6;
+  text-decoration: none;
 }
