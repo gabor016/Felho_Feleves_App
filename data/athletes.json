@@ -1,22 +1,102 @@
 [
   {
-    "id": "3d0c0d9a-6258-4e3a-b23d-b0b30de87a88",
-    "name": "Bence",
-    "weapon": "épée",
-    "age": "24",
-    "style": "Aggresszív",
-    "rating": 1000,
-    "notes": "Lorem ipsum",
-    "createdAt": 1763755280587
+    "id": "b9a5e63d-2ab9-4c3f-a4d6-2d8b4a3d9e11",
+    "name": "Zsófi",
+    "weapon": "sabre",
+    "age": "22",
+    "style": "agresszív",
+    "rating": 1020,
+    "notes": "Gyors indítások",
+    "createdAt": 1763771200001
   },
   {
-    "id": "a675c732-5cfe-4e56-a231-ffe137ddfb8b",
-    "name": "w4twtwe4",
-    "weapon": "sabre",
-    "age": "",
-    "style": "",
-    "rating": 1000,
+    "id": "4d8f5e6c-0afc-4180-ae9b-8af61dc74a19",
+    "name": "Gergő",
+    "weapon": "épée",
+    "age": "28",
+    "style": "defenzív",
+    "rating": 990,
     "notes": "",
-    "createdAt": 1763764660028
+    "createdAt": 1763771200002
+  },
+  {
+    "id": "92f3c6b2-bb48-4d5f-a1a2-04b5746e81c0",
+    "name": "Lili",
+    "weapon": "foil",
+    "age": "20",
+    "style": "technikai",
+    "rating": 1130,
+    "notes": "Pontosan szúr",
+    "createdAt": 1763771200003
+  },
+  {
+    "id": "5bbd7ac8-e4ba-41af-a5f4-5fe66db966b8",
+    "name": "Tamás",
+    "weapon": "sabre",
+    "age": "30",
+    "style": "kiegyensúlyozott",
+    "rating": 1185,
+    "notes": "",
+    "createdAt": 1763771200004
+  },
+  {
+    "id": "d2e1b868-c4e9-4ce1-b0f9-7181d3798b74",
+    "name": "Rebeka",
+    "weapon": "foil",
+    "age": "18",
+    "style": "agresszív",
+    "rating": 960,
+    "notes": "Kezdő",
+    "createdAt": 1763771200005
+  },
+  {
+    "id": "7cf9c308-9fd4-45d9-a344-b14f8734a3ec",
+    "name": "Kristóf",
+    "weapon": "épée",
+    "age": "25",
+    "style": "technikai",
+    "rating": 1210,
+    "notes": "Nagyon pontos",
+    "createdAt": 1763771200006
+  },
+  {
+    "id": "ae4d9392-5cee-4cc6-ba4e-90d9163ae47f",
+    "name": "Eszter",
+    "weapon": "foil",
+    "age": "23",
+    "style": "defenzív",
+    "rating": 1010,
+    "notes": "",
+    "createdAt": 1763771200007
+  },
+  {
+    "id": "f3ae2179-6313-40a5-8147-50fdd40fd3bd",
+    "name": "Norbert",
+    "weapon": "sabre",
+    "age": "29",
+    "style": "agresszív",
+    "rating": 1100,
+    "notes": "Jó tempóérzék",
+    "createdAt": 1763771200008
+  },
+  {
+    "id": "8ecf1bc7-2bd5-422d-aec5-44d04f598c8c",
+    "name": "Jázmin",
+    "weapon": "épée",
+    "age": "26",
+    "style": "kiegyensúlyozott",
+    "rating": 1080,
+    "notes": "Stabil védekezés",
+    "createdAt": 1763771200009
+  },
+  {
+    "id": "36ed3cb1-0041-4d6e-9a17-19978ea3ef8c",
+    "name": "Áron",
+    "weapon": "foil",
+    "age": "22",
+    "style": "technikai",
+    "rating": 1150,
+    "notes": "Gyors döntéshozatal",
+    "createdAt": 1763771200010
   }
 ]
