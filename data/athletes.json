@@ -1,12 +1,22 @@
 [
   {
-    "id": "0a8cbb42-bf13-49f7-84fc-7f33f7916523",
+    "id": "3d0c0d9a-6258-4e3a-b23d-b0b30de87a88",
     "name": "Bence",
     "weapon": "épée",
+    "age": "24",
+    "style": "Aggresszív",
+    "rating": 1000,
+    "notes": "Lorem ipsum",
+    "createdAt": 1763755280587
+  },
+  {
+    "id": "a675c732-5cfe-4e56-a231-ffe137ddfb8b",
+    "name": "w4twtwe4",
+    "weapon": "sabre",
     "age": "",
     "style": "",
     "rating": 1000,
     "notes": "",
-    "createdAt": 1763596153905
+    "createdAt": 1763764660028
   }
 ]

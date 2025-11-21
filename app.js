@@ -10,6 +10,7 @@ var athletesRouter = require('./routes/athletes');
 var trainingsRouter = require('./routes/trainings');
 var statsRouter = require('./routes/stats');
 var athleteRouter = require('./routes/athlete');  // <-- hozzáadva
+var tournamentRouter = require('./routes/tournament'); // új modul
 
 var app = express();
 
@@ -28,6 +29,7 @@ app.use('/api/athletes', athletesRouter);
 app.use('/api/trainings', trainingsRouter);
 app.use('/stats', statsRouter);
 app.use('/athlete', athleteRouter); // <-- hozzáadva
+app.use('/tournament', tournamentRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

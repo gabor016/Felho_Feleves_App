@@ -2,36 +2,87 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Statisztikák</title>
+  <title>Vívó Dashboard – Statisztikák</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="/stylesheets/style.css">
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      background-color:#ffffff;
+      color:#333333;
+      font-family:'Montserrat', sans-serif;
+    }
+    .card-result {
+      transition: transform 0.2s;
+    }
+    .card-result:hover { transform: scale(1.02); }
+    .winner {
+      border:2px solid #0d6efd;
+      border-radius:6px;
+      padding:5px;
+    }
+  </style>
 </head>
 <body>
-
-<nav class="navbar navbar-expand-lg navbar-dark mb-4 shadow-sm">
+<nav class="navbar navbar-expand-lg navbar-light bg-light mb-4 shadow-sm">
   <div class="container">
     <a class="navbar-brand fw-bold" href="/">
-      <img src="/images/fencing-icon.png" width="32" height="32" class="d-inline-block align-text-top me-2">
+      <img src="/images/fencing-icon.png" alt="" width="32" height="32" class="d-inline-block align-text-top me-2">
       Vívó Dashboard
     </a>
-    <div class="ms-auto">
-      <a class="btn btn-outline-light me-2" href="/">Főoldal</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="/">Főoldal</a></li>
+        <li class="nav-item"><a class="nav-link active" href="/stats">Statisztikák</a></li>
+        <li class="nav-item"><a class="nav-link" href="/competition">Versenybeosztó</a></li>
+      </ul>
     </div>
   </div>
 </nav>
 
 <div class="container py-4">
-  <h1>Statisztikák</h1>
-
-  <canvas id="ratingChart" class="mb-4" height="100"></canvas>
-  <canvas id="trainingChart" class="mb-4" height="100"></canvas>
+  <h1 class="mb-4">Statisztikák – Eredmények</h1>
+  <div id="results-container" class="row gy-3"></div>
 </div>
 
-<script src="/javascripts/stats.js"></script>
 <script>
-const data = <%- JSON.stringify(data) %>;
+async function loadResults() {
+  try {
+    const res = await fetch('/api/results');
+    const results = await res.json();
+    const container = document.getElementById('results-container');
+    container.innerHTML = '';
+
+    if(results.length === 0){
+      container.innerHTML = '<p class="text-muted">Még nincs elmentett eredmény.</p>';
+      return;
+    }
+
+    results.forEach(r => {
+      const card = document.createElement('div');
+      card.className = 'card p-3 shadow-sm col-md-6 card-result';
+
+      const winner1 = r.player1.score > r.player2.score;
+      const winner2 = r.player2.score > r.player1.score;
+
+      card.innerHTML = `
+        <h5>${r.pasta}</h5>
+        <div class="d-flex justify-content-between align-items-center mt-2">
+          <div class="${winner1?'winner':''}">${r.player1.name} - ${r.player1.score}</div>
+          <div>-</div>
+          <div class="${winner2?'winner':''}">${r.player2.name} - ${r.player2.score}</div>
+        </div>
+      `;
+      container.appendChild(card);
+    });
+  } catch(err) {
+    console.error('Hiba az eredmények betöltésekor:', err);
+  }
+}
+
+loadResults();
 </script>
 </body>
 </html>

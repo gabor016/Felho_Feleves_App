@@ -98,5 +98,146 @@
       "mode": "competition",
       "weapon": "épée"
     }
+  },
+  {
+    "id": "cfecb21d-24f2-4c05-a68a-4014534a9a7e",
+    "athleteId": "b95b96e5-fa5f-4ee7-8d13-09607a741820",
+    "createdAt": 1763753129052,
+    "program": {
+      "warmup": "Mobilitás labdával 8 perc",
+      "drills": [
+        "Kontratámadás több variációban: 12 perc",
+        "Összetett lábmunka: 15 perc",
+        "Épée specifikus gyakorlat 10 perc"
+      ],
+      "conditioning": [
+        "Core edzés 8 perc",
+        "Rövid intervall futás 4x30mp"
+      ],
+      "level": "intermediate",
+      "mode": "normal",
+      "weapon": "épée"
+    }
+  },
+  {
+    "id": "5385aaf7-dfc4-4621-9110-e5c3e73853f6",
+    "athleteId": "e0a50d7e-1a27-4047-861c-4d393b3ec8b1",
+    "createdAt": 1763754296268,
+    "program": {
+      "warmup": "Könnyű lábmunka 6 perc",
+      "drills": [
+        "Alap védekezés: 10 perc",
+        "Támadás indítása: 10 perc",
+        "Épée specifikus gyakorlat 10 perc"
+      ],
+      "conditioning": [
+        "Alacsony intenzitású erősítés",
+        "Nyújtás 12 perc"
+      ],
+      "level": "beginner",
+      "mode": "fatigued",
+      "weapon": "épée"
+    }
+  },
+  {
+    "id": "2c93d409-4f12-4027-b816-2f6f52f8e7c7",
+    "athleteId": "e0a50d7e-1a27-4047-861c-4d393b3ec8b1",
+    "createdAt": 1763754298479,
+    "program": {
+      "warmup": "Mobilitás labdával 8 perc",
+      "drills": [
+        "Alap védekezés: 10 perc",
+        "Támadás indítása: 10 perc",
+        "Épée specifikus gyakorlat 10 perc"
+      ],
+      "conditioning": [
+        "Core edzés 8 perc",
+        "Rövid intervall futás 4x30mp"
+      ],
+      "level": "beginner",
+      "mode": "normal",
+      "weapon": "épée"
+    }
+  },
+  {
+    "id": "136e1a20-a904-4a47-bedf-b122f0342cd7",
+    "athleteId": "e0a50d7e-1a27-4047-861c-4d393b3ec8b1",
+    "createdAt": 1763754319256,
+    "program": {
+      "warmup": "Reflex gyakorlatok 5 perc",
+      "drills": [
+        "Versenytempós asszók 20 perc",
+        "Gyors tempóváltás gyakorlása 15 perc",
+        "Taktikai elemzés 10 perc",
+        "Épée specifikus gyakorlat 10 perc"
+      ],
+      "conditioning": [
+        "Core edzés 8 perc",
+        "Rövid intervall futás 4x30mp"
+      ],
+      "level": "advanced",
+      "mode": "normal",
+      "weapon": "épée"
+    }
+  },
+  {
+    "id": "c4a84837-675a-4d10-99eb-7706153521f8",
+    "athleteId": "3d0c0d9a-6258-4e3a-b23d-b0b30de87a88",
+    "createdAt": 1763764611937,
+    "program": {
+      "warmup": "Reflex gyakorlatok 5 perc",
+      "drills": [
+        "Kontratámadás több variációban: 12 perc",
+        "Összetett lábmunka: 15 perc",
+        "Épée specifikus gyakorlat 10 perc"
+      ],
+      "conditioning": [
+        "Robbanékonysági gyakorlatok",
+        "Gyors reakció edzés 10 perc"
+      ],
+      "level": "intermediate",
+      "mode": "competition",
+      "weapon": "épée"
+    }
+  },
+  {
+    "id": "194333ce-9bfc-4638-a107-e0c2556bfbf4",
+    "athleteId": "3d0c0d9a-6258-4e3a-b23d-b0b30de87a88",
+    "createdAt": 1763764615778,
+    "program": {
+      "warmup": "Mobilitás labdával 8 perc",
+      "drills": [
+        "Kontratámadás több variációban: 12 perc",
+        "Összetett lábmunka: 15 perc",
+        "Épée specifikus gyakorlat 10 perc"
+      ],
+      "conditioning": [
+        "Core edzés 8 perc",
+        "Rövid intervall futás 4x30mp"
+      ],
+      "level": "intermediate",
+      "mode": "normal",
+      "weapon": "épée"
+    }
+  },
+  {
+    "id": "a9893a83-069a-47d3-9828-34a6414b0602",
+    "athleteId": "3d0c0d9a-6258-4e3a-b23d-b0b30de87a88",
+    "createdAt": 1763764629848,
+    "program": {
+      "warmup": "Reflex gyakorlatok 5 perc",
+      "drills": [
+        "Kontratámadás több variációban: 12 perc",
+        "Összetett lábmunka: 15 perc",
+        "Épée specifikus gyakorlat 10 perc"
+      ],
+      "conditioning": [
+        "Alacsony intenzitású erősítés",
+        "Nyújtás 12 perc"
+      ],
+      "level": "intermediate",
+      "mode": "fatigued",
+      "weapon": "épée"
+    }
   }
 ]
