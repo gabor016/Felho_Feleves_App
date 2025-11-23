@@ -8,7 +8,6 @@ var cors = require('cors');
 var indexRouter = require('./routes/index');
 var athletesRouter = require('./routes/athletes');
 var trainingsRouter = require('./routes/trainings');
-var statsRouter = require('./routes/stats');
 var athleteRouter = require('./routes/athlete');  // <-- hozzáadva
 var tournamentRouter = require('./routes/tournament'); // új modul
 
@@ -27,7 +26,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/api/athletes', athletesRouter);
 app.use('/api/trainings', trainingsRouter);
-app.use('/stats', statsRouter);
 app.use('/athlete', athleteRouter); // <-- hozzáadva
 app.use('/tournament', tournamentRouter);
 

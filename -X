@@ -1,0 +1,39 @@
+[01;34m.[0m
+├── app.js
+├── [01;34mbin[0m
+│   └── [01;32mwww[0m
+├── [01;34mdata[0m
+│   ├── athletes.json
+│   └── trainings.json
+├── package.json
+├── package-lock.json
+├── [01;34mpublic[0m
+│   ├── [01;34mimages[0m
+│   │   ├── [01;35mdefault-avatar.png[0m
+│   │   └── [01;35mfencing-icon.png[0m
+│   ├── [01;34mjavascripts[0m
+│   │   ├── athlete.js
+│   │   └── main.js
+│   └── [01;34mstylesheets[0m
+│       └── style.css
+├── README.md
+├── [01;34mroutes[0m
+│   ├── athlete.js
+│   ├── athletes.js
+│   ├── competition.js
+│   ├── index.js
+│   ├── tournament.js
+│   ├── trainings.js
+│   └── users.js
+├── [01;34mutils[0m
+│   ├── db.js
+│   └── trainingGenerator.js
+├── [01;34mviews[0m
+│   ├── athlete.ejs
+│   ├── error.ejs
+│   ├── index.ejs
+│   └── tournament.ejs
+└── -X
+/home/gabi/Documents/felhofelevesapp_struktura.xml  [error opening dir]
+
+10 directories, 26 files
